@@ -32,7 +32,7 @@ fl=Instance.new('Folder',char);fl.Name='CWExtra'
 
 char.Archivable = true
 local reanim = char:Clone()
-reanim.Name='NexoPD'
+reanim.Name='convert'
 
 for i,v in next, reanim:GetDescendants() do
 if v:IsA('BasePart') or v:IsA('Decal') then
@@ -49,10 +49,9 @@ char.Humanoid.AutoRotate=false
 char.Humanoid.WalkSpeed=0
 char.Humanoid.JumpPower=0
 char.Torso.Anchored = true
-notify('Nexo','Reanimating...\nPlease wait '..penis..' seconds.')
 wait(penis)
 char.Torso.Anchored=false
-notify('Nexo','Reanimated..')
+--no nexo lolol
 char.Humanoid.Health=0
 --reanim.Humanoid.AutoRotate=false
 reanim.Animate.Disabled = true
