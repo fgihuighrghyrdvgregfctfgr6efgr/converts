@@ -1,5 +1,5 @@
 plr = game.Players.LocalPlayer
-char = plr.Character
+char=game.Players.LocalPlayer.Character
 ct={}
 te=table.insert
 
@@ -49,6 +49,7 @@ char.Humanoid.AutoRotate=false
 char.Humanoid.WalkSpeed=0
 char.Humanoid.JumpPower=0
 char.Torso.Anchored = true
+wait(penis)
 char.Torso.Anchored=false
 char.Humanoid.Health=0
 --reanim.Humanoid.AutoRotate=false
@@ -165,13 +166,25 @@ ddown=false
 spacedown=false
 
 --reanim.HumanoidRootPart.RootJoint.Part0=nil
-dffffffffffffffffffff
+
 
 m=plr:GetMouse()
 
 --char.HumanoidRootPart.Transparency = 0
 
 
+
+local click
+
+
+
+te(ct,m.Button1Down:Connect(function()
+click=true
+end))
+
+te(ct,m.Button1Up:Connect(function()
+click=false
+end))
 
 te(ct,m.KeyDown:Connect(function(e)
 if e ==' ' then
