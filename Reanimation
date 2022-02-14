@@ -1,5 +1,5 @@
 plr = game.Players.LocalPlayer
-char=game.Players.LocalPlayer.Character
+char = plr.Character
 ct={}
 te=table.insert
 
