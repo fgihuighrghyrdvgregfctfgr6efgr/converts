@@ -28,11 +28,11 @@ end
 
 local srv= game:GetService("RunService")
 
-fl=Instance.new('Folder',char);fl.Name='CWExtra'
+fl=Instance.new('Folder',char);fl.Name='PermaDeath'
 
 char.Archivable = true
 local reanim = char:Clone()
-reanim.Name='convert'
+reanim.Name='body'
 
 for i,v in next, reanim:GetDescendants() do
 if v:IsA('BasePart') or v:IsA('Decal') then
