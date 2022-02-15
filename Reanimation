@@ -42,18 +42,21 @@ end
 
 --flinge = false
 
-penis=5.65
+PermaTime=5.65
 plr.Character=nil
 plr.Character=char
 char.Humanoid.AutoRotate=false
 char.Humanoid.WalkSpeed=0
-char.Humanoid.JumpPower=0
+char.Humanoid.JumpPower=85
+char.Humanoid.Jump = true
 char.Torso.Anchored = true
-wait(penis)
+wait(.2)
+wait(PermaTime)
+char.JumpPower=0
 char.Torso.Anchored=false
 char.Humanoid.Health=0
 --reanim.Humanoid.AutoRotate=false
-reanim.Animate.Disabled = true
+reanim.Animate.Disabled = false
 reanim.Parent = fl
 reanim.HumanoidRootPart.CFrame = char.HumanoidRootPart.CFrame*CFrame.new(0,5,0)
 
