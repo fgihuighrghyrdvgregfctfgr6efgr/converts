@@ -47,12 +47,14 @@ plr.Character=nil
 plr.Character=char
 char.Humanoid.AutoRotate=false
 char.Humanoid.WalkSpeed=0
-char.Humanoid.JumpPower=85
+char.Humanoid.JumpPower=65
+char.Humanoid.HipHeight=10
 char.Humanoid.Jump = true
+wait(.6)
 char.Torso.Anchored = true
-wait(.2)
 wait(PermaTime)
-char.JumpPower=0
+char.Humanoid.JumpPower=50
+char.Humanoid.WalkSpeed=16
 char.Torso.Anchored=false
 char.Humanoid.Health=0
 --reanim.Humanoid.AutoRotate=false
