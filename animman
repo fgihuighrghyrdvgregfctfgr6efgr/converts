@@ -59,7 +59,7 @@ local bc     = BrickColor.new
 --Variables
 local plr	 = game:GetService("Players").LocalPlayer
 local plrg   = plr.PlayerGui
-local char   = plr.Character["CWExtra"].convert
+local char   = plr.Character.PermaDeath.body
 local h      = char.Head
 local t      = char.Torso
 local ra     = char["Right Arm"]
